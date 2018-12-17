@@ -18,6 +18,7 @@ namespace dtl{
         prevP=this;
       };
 
+
       void addNext(deList* elem)
       {
         elem->nextP=this->nextP;
